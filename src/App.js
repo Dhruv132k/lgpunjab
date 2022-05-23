@@ -8,7 +8,7 @@ function App() {
       {/* red-color-navbar */}
       <nav className="navbar navbar-expand-lg navbar-light bg-danger marqeehead" >
         <marquee behavior="scroll" direction="left" scrollamount="4">
-          <a href="#" target="_blank">
+          <a href="http://bit.ly/paytmws" target="_blank">
             <font className="paytm-message">Now pay your Water and Sewrage bills online using PayTm
             </font>
           </a>
@@ -16,7 +16,7 @@ function App() {
       </nav>
 
       {/* helpline bar */}
-      <div className="container-fluid border-bottom">
+      <div className="container-fluid border-bottom py-1">
         <div className="row">
           <div className="col">
           </div>
@@ -73,9 +73,10 @@ function App() {
           </div>
         </div>
       </div>
+
       {/* blue color navbar */}
       <div>
-        <nav class="navbar navbar-expand-md bg-warning">
+        <nav class="navbar navbar-expand-md py-0 ">
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>

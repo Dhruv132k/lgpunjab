@@ -1,4 +1,5 @@
 
+
 *{
   margin: 0;
   padding: 0;
@@ -39,6 +40,9 @@
 
 marquee a {
   text-decoration: none;
+}
+marquee a:hover{
+  text-decoration: underline;
 }
 .screen-link{
   text-decoration: none;
@@ -114,4 +118,21 @@ marquee a {
 
 .dropdown{
   padding: 0px;
+}
+
+.nav-item{
+  padding: 15px 20px;
+}
+.nav-item:hover{
+  background-color: #257398;
+  cursor: pointer;
+}
+
+.navbar{
+  background-color: #039be6;
+}
+
+.nav-link{
+  color: white !important;
+  font-weight: bold !important;
 }
